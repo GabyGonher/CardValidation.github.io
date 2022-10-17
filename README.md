@@ -1,10 +1,10 @@
-#Validación de tarjeta de crédito 
+# Validación de tarjeta de crédito 
  
-#Introducción
+# Introducción
 
 El presente proyecto se desarrolla como parte de un ejercicio desarrollado por **Gabriela González Herrera** durante su proceso de aprendizaje en el **Bootcamp de Laboratoria**, donde se ponen en práctica aspectos como fundamentos de **JavaScript**, incluyendo conceptos como variables, condicionales, y funciones, así como eventos y manipulación básica del **DOM**, fundamentos de **HTML** y **CSS**.
 
-#Diseño
+# Diseño
 
 El diseño de la aplicación fue orientado a no ser el típico sitio formal y aburrido que comúnmente encontramos en los sitios de aerolíneas, dándole un toque de fresco y jovial con el que nuestro usuario se sienta identificado. En este caso el fondo da algunos matices que aparentan el cielo como una obra de arte. Como contraste se emplea el color blanco dentro de los recuadros del formulario, que permitirán que el usuario tenga una visión más clara al momento de ingresar sus datos y realizar la compra.
 
