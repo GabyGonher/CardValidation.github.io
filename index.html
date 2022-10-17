@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="sylesheet" href="src/style.css" />
+  <link rel="stylesheet" href="style.css">
+
+  <title>Aeroponko</title>
+</head>
+
+<body>
+  <div id="seccion1">
+    <p id="encabezado"> Aerolinea </p>
+  </div>
+  <br>
+
+  <div id="seccion2">
+    <h1 id="bienvenida">Bienvenid@ a tu sitio favorito!</h1>
+    <h2 id="frase"> Viajar es añadir vida a la vida,  ¿así que cuál es tu próximo destino?</h2>
+
+    <br/> 
+    <label> Escribe tu nombre </label>
+    <input type="text" name="nombre" />
+
+    <br />
+
+
+    <input type="radio" name="tipo vuelo">
+    <label>Sencillo</label>
+    <input type="radio" name="tipo vuelo">
+    <label>Ida y vuelta</label>
+    <br />
+    <br />
+    <form>
+      LUGAR DE ORIGEN:
+      <select id="origen">
+        <option disabled selected> Seleccione un lugar </option> 
+        <option value="1">Ciudad de México - Aeropuerto Internacional Benito Juárez</option>
+        <option value="2">Cancún - Aeropuerto Internacional</option>
+        <option value="3"> Guadalajara - Aeropuerto Internacional “Don Miguel Hidalgo y Costilla”</option>
+        <option value="4"> Monterrey - Aeropuerto Internacional “Mariano Escobedo”</option>
+        <option value="5">Tijuana - Aeropuerto Internacional “General Abelardo L. Rodríguez”</option>
+      </select>
+      <br />
+      DESTINO:
+      <br/>
+      <select id="destino">
+        <option disabled selected> Seleccione un destino </option>
+        <option value="1">Ciudad de México - Aeropuerto Internacional Benito Juárez</option>
+        <option value="2">Cancún - Aeropuerto Internacional</option>
+        <option value="3">Guadalajara - Aeropuerto Internacional “Don Miguel Hidalgo y Costilla”</option>
+        <option value="4">Monterrey - Aeropuerto Internacional “Mariano Escobedo”</option>
+        <option value="5">Tijuana - Aeropuerto Internacional “General Abelardo L. Rodríguez”</option>
+      </select>
+    </form>
+    <br />
+    <label>Fecha</label>
+    <input type="date" min="2022-10-13" max="2022-12-31">
+    <br />
+    <label> Numero de pasajeros </label>
+    <input id= "boletos" type="number" name="cantidad" min="1" max="9"/>
+    <br/> 
+    <br />
+    <h3 id="total"> Total: $ <div id="mostrarPrecio"> </div></h3> 
+    <h4>Pago total en moneda mexicana MXN</h4>
+    
+
+    <button type="button" id="botonPago"> Confirmar vuelo </button> 
+  </div>
+  <br />
+
+
+  <div id="seccion3" style="display:none;">
+    <form>
+      <label id="NumCss"> Número de tarjeta </label>
+      <br/>
+      <input id="digitos" maxlength="16" type="text" name="numerotarjeta" placeholder="0000-0000-0000-0000" required
+        pattern="[0-9]+" pasword oninput="onkeyup">
+      <button type="button" id="boton1">Enviar</button>
+      
+      
+     <br/>
+     
+    </form>
+
+
+
+
+  </div>
+
+<br/>
+  <div id="seccion4" style="display: none;">
+    <h1>Resultado de validacion</h1>
+
+    <div id="tarjetaMaskify"></div>
+    <div id="resultado"></div>
+
+
+
+
+  </div>
+
+
+  <!-- <script type="module" src="validator.js"></script> -->
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>
