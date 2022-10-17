@@ -1,0 +1,98 @@
+body {
+    background: url(avion.png) no-repeat;
+    background-size: cover;
+    opacity: 85%;
+
+}
+
+#seccion1 {
+
+    background-color: aliceblue;
+    position: center;
+    width: 98%;
+    border-radius: 10px;
+    padding: 0%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+
+
+#seccion2 {
+
+    background-color: aliceblue;
+    position: center;
+    width: 40%;
+    padding: 50px;
+    border: 1px solid blue;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 30px;
+    margin:0 auto;
+    
+
+
+}
+
+#seccion3 {
+
+    background-color: aliceblue;
+    position: center;
+    width: 40%;
+    padding: 50px;
+    border: 1px solid blue;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 30px;
+    margin: 0 auto;
+   
+}
+
+#seccion4 {
+    background-color: aliceblue;
+    position: center;
+    width: 40%;
+    padding: 50px;
+    border: 1px solid blue;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 30px;
+    margin: 0 auto;
+    font-size: small;
+
+
+
+
+}
+#encabezado {
+    font-family: Georgia;
+    font: size 30px;
+
+}
+
+#NumCss  {
+font-size: 20px;
+
+}
+
+.valido
+.invalido  
+{
+    color:black
+}
+.valido
+{
+    color: green;
+
+}
+.invalido
+{
+    color: red;
+}
+
+
+
+
